@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+body {
+    background-color: #000;
+}
+
+.item-list{
+    color: #fff;
+    display: flex;
+    width: 100%;
+}
+.item-list .item{
+    width: 16.6%;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.layout {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
