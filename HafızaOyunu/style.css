@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Indie Flower', cursive ;
+}
+
+body ,html {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navigation{
+    background-color: #c7bbbb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    
+}
+
+.item{
+    margin: 10px 10px;
+}
+
+.check{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inp{
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+.btn{
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.none {
+    display: none;
+}
+.answer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+}
